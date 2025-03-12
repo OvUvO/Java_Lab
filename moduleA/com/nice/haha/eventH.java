@@ -1,7 +1,6 @@
 package com.nice.haha;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class eventH {
 
@@ -10,16 +9,23 @@ public class eventH {
             JFrame frame = new JFrame("Swing Example");
             JButton button = new JButton("Click Me");
 
-            // 事件监听器
             button.addActionListener(e -> JOptionPane.showMessageDialog(frame, "Button Clicked!"));
 
             frame.add(button);
-            frame.setSize(300, 200);
+            frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
     }
 
+}
+
+class Student extends eventH {
+	
+	public Student(){
+		
+		
+	}
 }
 
 
