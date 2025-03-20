@@ -2,7 +2,7 @@ package com.lab7.haha;
 
 interface Movable{
 	
-	void moveUp();
+	void moveUp();	
 	void moveDown();
 	void moveLeft();
 	void moveRight();
