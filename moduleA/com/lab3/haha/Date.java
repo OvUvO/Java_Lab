@@ -9,7 +9,7 @@ public class Date {
 		GregorianCalendar calendar = new GregorianCalendar();
 
         int year = calendar.get(Calendar.YEAR);
-        int month = calendar.get(Calendar.MONTH) + 1; //its start from 0 so need to +1
+        int month = calendar.get(Calendar.MONTH)+1; //its start from 0 so need to +1
         int day = calendar.get(Calendar.DATE);
 
         System.out.println("Current Date: " + year + "-" + month + "-" + day);

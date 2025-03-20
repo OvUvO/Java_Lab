@@ -53,14 +53,14 @@ public class Fan {
         this.color = color;
     }
 
-//    @Override
-//    public String toString() {
-//        if (on) {
-//            return "Fan speed: " + speed + ", Color: " + color + ", Radius: " + radius;
-//        } else {
-//            return "Fan is off. Color: " + color + ", Radius: " + radius;
-//        }
-//     }
+    @Override
+    public String toString() {
+        if (on) {
+            return "Fan speed: " + speed + ", Color: " + color + ", Radius: " + radius;
+        } else {
+            return "Fan is off. Color: " + color + ", Radius: " + radius;
+        }
+     }
     
     public static void main(String[] args) {
         Fan fan1 = new Fan();
