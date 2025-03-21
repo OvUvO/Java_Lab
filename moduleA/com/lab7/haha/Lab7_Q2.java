@@ -14,7 +14,7 @@ interface Resizable{
 }
 
 class Circle implements GeometricObject{
-	
+	double pi = Math.PI;
 	double radius;
 	
 	public Circle(double radius) {
@@ -23,12 +23,12 @@ class Circle implements GeometricObject{
 	
 	@Override
 	public double getPerimeter() {
-		return (2*3.14*radius);
+		return (2*pi*radius);
 	}
 	
 	@Override
 	public double getArea() {
-		return (3.14*radius*radius);
+		return (pi*radius*radius);
 	}
 	
 	@Override
