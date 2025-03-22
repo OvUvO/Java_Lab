@@ -1,6 +1,12 @@
 package com.lab7.haha;
 
-abstract class GeometricObject implements Comparable<GeometricObject> {
+interface Comparable {
+	
+	public int compareTo(GeometricObject o);
+	
+}
+
+abstract class GeometricObject implements Comparable {
 	
 	public abstract double getArea();
     
