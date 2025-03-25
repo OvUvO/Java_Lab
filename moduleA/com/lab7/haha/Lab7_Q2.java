@@ -1,6 +1,6 @@
 package com.lab7.haha;
 
-interface GeometricObject{
+interface GeometricObject2{
 	
 	public double getPerimeter();
 	public double getArea();
@@ -13,7 +13,7 @@ interface Resizable{
 	
 }
 
-class Circle implements GeometricObject{
+class Circle implements GeometricObject2{
 	double pi = Math.PI;
 	double radius;
 	
